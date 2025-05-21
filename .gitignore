@@ -5,3 +5,4 @@ npm-debug.log
 .env
 firebase-config.json
 firebase/*
+node_modules
