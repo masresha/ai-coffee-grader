@@ -1,0 +1,14 @@
+train: C:/Users/mati/Desktop/ai-coffee-grader-web-app/backend/datasets/roasted-coffee/train/images
+val: C:/Users/mati/Desktop/ai-coffee-grader-web-app/backend/datasets/roasted-coffee/valid/images
+test: C:/Users/mati/Desktop/ai-coffee-grader-web-app/backend/datasets/roasted-coffee/test/images
+
+
+nc: 5
+names: ['bad', 'dark', 'green', 'light', 'medium']
+
+roboflow:
+  workspace: bai-pang
+  project: roasted-coffee-bean-300
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bai-pang/roasted-coffee-bean-300/dataset/2

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['black', 'broken', 'foreign', 'fraghusk', 'green', 'husk', 'immature', 'infested', 'sour', 'good']
+
+roboflow:
+  workspace: niacubilla
+  project: coffee-bean-defect-smvw1
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/niacubilla/coffee-bean-defect-smvw1/dataset/3
