@@ -319,7 +319,7 @@ function App() {
                     Green Bean Analysis
                   </Typography>
                   <Typography variant="h4" color="primary" gutterBottom>
-                    Score: {gradingResult.score}/100
+                    {/* Score: {gradingResult.score}/100 */}
                   </Typography>
                   <Typography variant="h5" gutterBottom>
                     Quality: {gradingResult.quality}
