@@ -24,7 +24,7 @@ export interface RoastAnalysisResult {
   annotatedImage?: string; // base64 image string if returned
 }
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://400e-34-90-117-7.ngrok-free.app';
 
 // Green bean analysis service
 export async function analyzeCoffeeBeans(imageData: string): Promise<AnalysisResult> {
