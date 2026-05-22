@@ -7,12 +7,11 @@ import {
   Paper,
   Grid,
   CircularProgress,
-  Alert,
-  IconButton
+  Alert
 } from '@mui/material';
 import Webcam from 'react-webcam';
 import { styled } from '@mui/material/styles';
-import { analyzeCoffeeBeans, DefectDetection, analyzeRoast } from './services/coffeeAnalysis';
+import { analyzeCoffeeBeans, DefectDetection } from './services/coffeeAnalysis';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import StopIcon from '@mui/icons-material/Stop';
@@ -112,7 +111,7 @@ function App() {
     setError(null);
 
     try {
-      const result = await analyzeRoast(previewUrl!);
+      // const result = await analyzeRoast(previewUrl!);
       setRoastAnalysisResult({
         roastLevel: 'Medium', // These would come from your backend
         consistency: 85,
